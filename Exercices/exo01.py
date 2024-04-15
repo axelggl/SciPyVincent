@@ -6,5 +6,7 @@ data = sio.loadmat('data.mat')
 x = data['x']
 y = data['y']
 
+print("==== Variable x ====")
 print(x)
+print("==== Variable y ====")
 print(y)
